@@ -25,10 +25,6 @@ pipeline {
                             git "https://github.com/Ravinderhub/Jenkins-Terraform-AWS.git"
                         }
                     }
-                stage('terraform init'){
-                    steps{
-                        sh label:", script: 'terraform init'
-                        
                 }
             }
 
